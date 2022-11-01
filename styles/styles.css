@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    border: 1px solid saddlebrown;
+}
+
+.banner,
+.information,
+.content,
+.call-to-action {
+    border: 1px solid slateblue;
+}
