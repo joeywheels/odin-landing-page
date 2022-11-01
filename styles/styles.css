@@ -14,7 +14,7 @@ footer {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 16px 48px;
+    padding: 16px 224px;
     justify-content: center;
 }
 
@@ -42,7 +42,7 @@ footer {
     color: #E5E7EB;
     display: flex;
     flex-direction: row;
-    padding: 24px;
+    padding: 48px 200px;
 }
 
 .banner-left,
@@ -114,13 +114,32 @@ button {
     border-radius: 25px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 48px 400px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.attribution {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+}
+
 .cta-button {
     border: 2px solid #F9FAF8;
 }
 
-.banner,
-.information,
-.content,
 .call-to-action {
     border: 1px solid slateblue;
 }
