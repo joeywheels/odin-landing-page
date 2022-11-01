@@ -141,7 +141,17 @@ button {
 }
 
 .call-to-action {
-    border: 1px solid slateblue;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 224px;
+    border-radius: 10px;
+}
+
+.cta-left,
+.cta-right {
+    padding: 48px;
 }
 
 .footer {
