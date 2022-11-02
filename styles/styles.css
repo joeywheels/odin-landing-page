@@ -8,7 +8,6 @@ body {
 
 header,
 footer {
-    border: 1px solid saddlebrown;
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
@@ -151,7 +150,22 @@ button {
 
 .cta-left,
 .cta-right {
-    padding: 48px;
+    padding: 48px 96px;
+}
+
+.cta-left {
+    flex: 2;
+}
+
+.cta-tagline {
+    font-weight: bold;
+}
+
+.cta-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
 }
 
 .footer {
