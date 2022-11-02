@@ -13,8 +13,11 @@ footer {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 16px 224px;
     justify-content: center;
+}
+
+header {
+    padding: 16px 224px;
 }
 
 .header-left {
@@ -151,7 +154,7 @@ button {
 
 .cta-left,
 .cta-right {
-    padding: 48px 96px;
+    padding: 24px 96px;
 }
 
 .cta-left {
@@ -169,8 +172,6 @@ button {
     width: 300px;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer {
+    padding: 32px;
 }
